@@ -14,7 +14,7 @@ namespace vectorsearch {
             string userQuery = Console.ReadLine();
 
             string endpoint = "https://demomeai.openai.azure.com";
-            string apiKey = "6a00f8a0a6744aae810ab018a6c6b276";
+            string apiKey = "";
             string deploymentId = "text-embedding-ada-002";
 
             Uri oaiEndpoint = new (endpoint);
